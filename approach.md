@@ -10,6 +10,7 @@ Step 2: Sorting and Merging Intervals:
 
 We sort the intervals based on their starting points. This will be extremely helpful in both merging intervals as well as analyzing the gaps in between. We then iterate through and merge these sorted intervals, resulting in a list of non-overlapping intervals.
 For each interval:
+
 If it starts after the end of the last interval in the final list, we add it directly. This signifies a clear gap between planets.
 If it overlaps with the last interval, we merge them by taking the minimum starting point and maximum ending point, which represents the combined occupied space.
 

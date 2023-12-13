@@ -1,6 +1,7 @@
-# planet_intervals
+# Planet Intervals Problem
 
 A spaceship is approaching some planets that are arranged in a 1-dimensional line. It needs to pass through the line of the planets, but can't get too close to any planet, otherwise it would get caught in that planet's gravitational field.
+
 Given a list of planets, where each planet is specified by its position along the line and the range of its gravitational field, compute the list of gaps from [0, 1000] through which the spaceship can fly.
 
 input                output (gaps)           reasoning
